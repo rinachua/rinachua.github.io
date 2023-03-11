@@ -9,7 +9,7 @@ const Header = () => {
       <Container fluid>
         <Row align='center'>
           <Col md={6} align='left'>
-            <a href='/' className={classNames(styles.link, styles.name)}>Rina Chua</a>
+            <a href='/profile' className={classNames(styles.link, styles.name)}>Rina Chua</a>
           </Col>
           <Col md={6} align='right'>
             <a href='/profile/#aboutme' className={classNames(styles.link, styles.tab)}>About Me</a>
