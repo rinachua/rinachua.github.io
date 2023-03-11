@@ -1,0 +1,48 @@
+@import 'common/font.scss';
+@import 'common/variable.scss';
+
+.wrapper {
+  background-color: $primary-color;
+  padding: 100px 0;
+}
+
+.title {
+  background: linear-gradient(to right, $light-blue-color, $pink-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 25px;
+}
+
+.projectWrapper {
+  margin: 30px 0 100px 0;
+}
+
+.projectDetailsWrapper {
+  position: relative;
+  margin-bottom: 20px;
+  z-index: 2;
+
+  >h5 {
+    color: white;
+    font-size: $font-large;
+    margin: 10px 0;
+  }
+  >p {
+    color: $secondary-color;
+  }
+  p:first-of-type {
+    margin: 10px 0;
+    font-size: $font-small;
+  }
+  p:nth-of-type(2) {
+    font-size: $font-extra-small;
+    text-align: right;
+    font-family: $Courier;
+  }
+}
+
+.img {
+  z-index: 0;
+  position: relative;
+}

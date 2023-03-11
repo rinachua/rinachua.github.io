@@ -1,0 +1,9 @@
+@import 'common/font.scss';
+@import 'common/variable.scss';
+
+.card {
+  position: relative;
+  background-color: $tertiary-color;
+  border-radius: 5px;
+  padding: 20px;
+}

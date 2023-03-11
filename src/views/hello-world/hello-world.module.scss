@@ -1,0 +1,95 @@
+@import 'common/font.scss';
+@import 'common/variable.scss';
+
+.backgroundWrapper {
+  background-color: black;
+  width: 100%;
+  padding: 500px 0;
+}
+
+.particles {
+  position: fixed;
+  top: 30%;
+  left: 30%;
+  height: 1px;
+  width: 1px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 22vw 30vh 2px 1px $light-blue-color,-8vw 33vh 3px 0px $light-blue-color,-8vw 26vh 3px 0px $light-blue-color,23vw -16vh 3px 1px $light-blue-color,-26vw 26vh 3px 1px $light-blue-color,7vw -40vh 2px 3px $light-blue-color,1vw 21vh 3px 2px $light-blue-color,-42vw -40vh 0px 1px $light-blue-color,21vw 8vh 2px 0px $light-blue-color,-16vw -3vh 1px 3px $light-blue-color,28vw -37vh 0px 1px $light-blue-color,-6vw -40vh 2px 1px $light-blue-color,-44vw 27vh 3px 3px $light-blue-color,23vw -11vh 3px 1px $light-blue-color,50vw 29vh 1px 3px $light-blue-color,40vw 12vh 1px 3px $light-blue-color,-44vw -12vh 3px 0px $light-blue-color,-35vw -19vh 1px 3px $light-blue-color,32vw 43vh 2px 1px $light-blue-color,-6vw 34vh 0px 2px $light-blue-color,-36vw 39vh 1px 1px $light-blue-color,28vw -31vh 2px 3px $light-blue-color,-31vw -1vh 2px 0px $light-blue-color,-26vw -9vh 3px 3px $light-blue-color,-3vw -47vh 2px 3px $light-blue-color,14vw 29vh 1px 0px $light-blue-color,35vw -36vh 3px 1px $light-blue-color,20vw 23vh 3px 0px $light-blue-color,47vw 13vh 3px 2px $light-blue-color,-34vw -22vh 1px 2px $light-blue-color,43vw -34vh 1px 2px $light-blue-color,-2vw 47vh 3px 2px $light-blue-color,-31vw 30vh 3px 0px $light-blue-color,-1vw 36vh 2px 3px $light-blue-color,-22vw -38vh 2px 0px $light-blue-color,-11vw -50vh 0px 3px $light-blue-color,-1vw 4vh 0px 1px $light-blue-color,48vw -22vh 2px 1px $light-blue-color,-44vw 45vh 3px 3px $light-blue-color,-24vw -10vh 0px 2px $light-blue-color,-44vw 33vh 1px 2px $light-blue-color,12vw -28vh 3px 3px $light-blue-color,-8vw 34vh 0px 3px $light-blue-color,-28vw -4vh 2px 0px $light-blue-color,-31vw -25vh 2px 3px $light-blue-color,16vw 40vh 1px 1px $light-blue-color,-9vw -15vh 0px 3px $light-blue-color,-47vw 41vh 3px 2px $light-blue-color,45vw 50vh 1px 2px $light-blue-color,-23vw 3vh 1px 3px $light-blue-color,48vw -19vh 2px 2px $light-blue-color,0vw 11vh 2px 2px $light-blue-color,-19vw 18vh 2px 3px $light-blue-color,32vw -36vh 0px 3px $light-blue-color,11vw 43vh 2px 0px $light-blue-color,-40vw -34vh 0px 0px $light-blue-color,-2vw 25vh 2px 0px $light-blue-color,19vw -21vh 1px 3px $light-blue-color,26vw -26vh 3px 2px $light-blue-color,30vw -18vh 2px 3px $light-blue-color,-13vw 30vh 3px 1px $light-blue-color,26vw -37vh 1px 0px $light-blue-color,13vw -29vh 2px 2px $light-blue-color,20vw -36vh 1px 1px $light-blue-color,19vw 32vh 2px 2px $light-blue-color,23vw 11vh 1px 1px $light-blue-color,-46vw 6vh 2px 3px $light-blue-color,35vw -4vh 3px 2px $light-blue-color,-2vw 15vh 3px 2px $light-blue-color,42vw -22vh 3px 2px $light-blue-color,8vw 18vh 2px 1px $light-blue-color,38vw 2vh 0px 0px $light-blue-color,37vw -21vh 2px 0px $light-blue-color,-28vw 43vh 3px 1px $light-blue-color,23vw 47vh 3px 1px $light-blue-color,20vw -43vh 3px 3px $light-blue-color,12vw 35vh 1px 3px $light-blue-color,39vw 15vh 2px 0px $light-blue-color,-30vw -25vh 3px 0px $light-blue-color,6vw -4vh 2px 3px $light-blue-color,40vw 50vh 1px 3px $light-blue-color,7vw -42vh 0px 1px $light-blue-color,6vw 18vh 2px 2px $light-blue-color,-2vw 26vh 3px 0px $light-blue-color,40vw -7vh 2px 1px $light-blue-color,-4vw 28vh 2px 0px $light-blue-color,28vw 26vh 0px 1px $light-blue-color,-33vw 40vh 2px 1px $light-blue-color,40vw 41vh 1px 0px $light-blue-color,34vw -3vh 1px 3px $light-blue-color,-39vw -45vh 3px 0px $light-blue-color,-12vw 45vh 2px 0px $light-blue-color,-14vw -4vh 0px 0px $light-blue-color,32vw 29vh 1px 0px $light-blue-color,23vw 37vh 2px 0px $light-blue-color,-30vw -12vh 2px 0px $light-blue-color,-16vw -30vh 0px 0px $light-blue-color,43vw 16vh 3px 3px $light-blue-color,13vw 7vh 3px 0px $light-blue-color,-23vw 34vh 1px 0px $light-blue-color;
+  animation: zoom 4s alternate infinite;
+}
+
+.title {
+  font-family: $Courier;
+  font-size: $font-title;
+  color: white;
+  letter-spacing: 15px;
+  text-align: center;
+}
+
+.subTitle {
+  font-size: $font-small;
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  animation-name: popOut;
+  animation-duration: 8s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  animation-iteration-count: infinite;
+}
+
+.icon {
+  font-size: $font-extra-extra-small;
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  margin-left: 8px;
+  animation: shiver 0.5s infinite;
+}
+
+@keyframes zoom {
+  0%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(2);
+  }
+}
+
+@keyframes popOut {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  80% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+@keyframes shiver {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(2px) rotateZ(-2deg);
+  }
+  50% {
+    transform: translateY(0) rotateZ(0);
+  }
+  75% {
+    transform: translateY(-2px) rotateZ(2deg);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

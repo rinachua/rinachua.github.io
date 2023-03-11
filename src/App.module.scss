@@ -1,0 +1,9 @@
+@import 'common/font.scss';
+@import 'common/variable.scss';
+
+body {
+  font-family: $Oswald;
+  min-width: 1280px;
+  padding: 0;
+  margin: 50px 0 0 0;
+}

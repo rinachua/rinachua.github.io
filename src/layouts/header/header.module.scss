@@ -1,0 +1,31 @@
+@import 'common/font.scss';
+@import 'common/variable.scss';
+
+.wrapper {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  padding: 10px 0;
+  left: 0;
+  top: 0;
+  z-index: 3;
+}
+
+.name {
+  font-family: $Luxurious;
+  font-size: $font-caption;
+}
+
+.link {
+  text-decoration: none;
+  color: $secondary-color;
+}
+
+.link:hover {
+  color: darken($secondary-color, 10%);
+}
+
+.tab {
+  margin: 0 15px;
+  font-size: $font-small;
+}

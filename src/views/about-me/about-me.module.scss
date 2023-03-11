@@ -1,0 +1,61 @@
+@import 'common/font.scss';
+@import 'common/variable.scss';
+
+.wrapper {
+  background-color: $primary-color;
+  width: 100%;
+  padding: 150px 0;
+  position: fixed;
+}
+
+.title {
+  font-family: $Oswald;
+  font-size: $font-subtitle;
+  color: white;
+}
+
+.subTitle {
+  font-family: $Oswald;
+  font-size: $font-caption;
+  color: $secondary-color;
+}
+
+.caption {
+  text-decoration: none;
+  background: linear-gradient(to right, $pink-color, $purple-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.listWrapper li {
+  display: inline-block;
+  margin: 0 40px 0 0;
+}
+
+.listWrapper li a {
+  text-decoration: none;
+  color: black;
+} 
+
+.listWrapper li a:hover {
+  color: $secondary-color;
+}
+
+.bouncy {
+  animation-name: bounce;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

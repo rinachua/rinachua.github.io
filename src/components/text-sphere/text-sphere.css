@@ -1,0 +1,20 @@
+.tagcloud {
+  display: inline-block;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  letter-spacing: 0.0625em;
+  font-size: 20px;
+}
+
+.tagcloud--item {
+  color: white;
+  text-transform: uppercase;
+}
+
+.tagcloud--item:hover {
+  background: linear-gradient(to right, #FF00CC, #6969FD);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
