@@ -14,7 +14,7 @@ const App = () => {
       <Header/>
       <BrowserRouter>
         <Switch>
-          <Route exact path='/' component={Main}/>
+          <Route exact path='/profile' component={Main}/>
         </Switch>
       </BrowserRouter>
       <Footer/>

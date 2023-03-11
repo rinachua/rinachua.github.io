@@ -12,9 +12,9 @@ const Header = () => {
             <a href='/' className={classNames(styles.link, styles.name)}>Rina Chua</a>
           </Col>
           <Col md={6} align='right'>
-            <a href='/#aboutme' className={classNames(styles.link, styles.tab)}>About Me</a>
-            <a href='/#experienceskills' className={classNames(styles.link, styles.tab)}>Experience & Skills</a>
-            <a href='/#projects' className={classNames(styles.link, styles.tab)}>Projects</a>
+            <a href='/profile/#aboutme' className={classNames(styles.link, styles.tab)}>About Me</a>
+            <a href='/profile/#experienceskills' className={classNames(styles.link, styles.tab)}>Experience & Skills</a>
+            <a href='/profile/#projects' className={classNames(styles.link, styles.tab)}>Projects</a>
           </Col>
         </Row>
       </Container>
